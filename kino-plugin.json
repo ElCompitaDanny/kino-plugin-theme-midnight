@@ -1,0 +1,333 @@
+{
+  "id": "kino-disney-experience",
+  "name": "Kino Disney Experience",
+  "version": "1.1.0",
+  "apiVersion": 26,
+  "entry": "plugin.js",
+  "description": "Tema azul noche inspirado en Disney+: fondo oscuro con degradado, tarjetas con borde blanco al enfocar y botones azules. No oficial. Mínimo Kino 0.9.87; recomendado 0.9.93.",
+  "hosts": [],
+  "categories": [
+    "themes"
+  ],
+  "appThemes": [
+    {
+      "id": "disney-experience",
+      "name": {
+        "es": "Kino Disney Experience",
+        "en": "Kino Disney Experience"
+      },
+      "colors": {
+        "accent": "#0063E5",
+        "onAccent": "#FFFFFF",
+        "background": "#040714",
+        "surface": "#1A1D29",
+        "surfaceHigh": "#30343F",
+        "textPrimary": "#FFFFFF",
+        "textSecondary": "#CACACA",
+        "focus": "#F9F9F9",
+        "onFocus": "#040714",
+        "outline": "#4A4F63",
+        "railPanel": "#0A0D1C",
+        "scrim": "#000000",
+        "border": "#2B2F40",
+        "success": "#46D369",
+        "warning": "#F5C518",
+        "error": "#E5484D",
+        "favorite": "#0483EE"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": [
+          "#040714",
+          "#0A0E2A",
+          "#151C4D"
+        ],
+        "angle": 180
+      },
+      "shape": {
+        "cardRadius": 8,
+        "channelRadius": 8,
+        "buttonRadius": 4,
+        "chipRadius": 16,
+        "dialogRadius": 12,
+        "inputRadius": 6,
+        "dialogBorder": 1,
+        "menuBorder": 1,
+        "headerBorder": 1,
+        "cardBorder": 1,
+        "panelBorder": 1,
+        "heroRadius": 8,
+        "railItemRadius": 8
+      },
+      "typography": {
+        "scale": 1.0,
+        "titleScale": 1.04,
+        "bodyScale": 1.0
+      },
+      "elevation": {
+        "cardShadow": 0.5,
+        "dialogShadow": 0.55,
+        "heroScrim": 0.85
+      },
+      "motion": {
+        "focusZoom": 1.05,
+        "crossfadeMs": 220,
+        "heroDrift": "on"
+      },
+      "player": {
+        "buttonScale": 1.0,
+        "playButtonScale": 1.1,
+        "seekBarScale": 1.0,
+        "labelScale": 1.0,
+        "buttonShape": "rounded"
+      },
+      "experience": "full",
+      "pluginColors": "respect",
+      "adjustable": {
+        "colors.accent": {
+          "swatches": [
+            "#0063E5",
+            "#0483EE",
+            "#1F80E0",
+            "#5BA8FF"
+          ]
+        },
+        "shape.cardRadius": {
+          "min": 6,
+          "max": 18
+        },
+        "typography.scale": {
+          "min": 0.9,
+          "max": 1.12
+        },
+        "background": true
+      },
+      "style": {
+        "gloss": 0.2
+      },
+      "layout": {
+        "hero": "framed",
+        "rail": "floating"
+      },
+      "surfaces": {
+        "button": {
+          "fill": {
+            "type": "gradient",
+            "colors": [
+              "#0483EE",
+              "#0050B8"
+            ],
+            "angle": 180
+          },
+          "stroke": {
+            "width": 1,
+            "color": "#6FB2FF"
+          }
+        },
+        "buttonGhost": {
+          "fill": {
+            "type": "solid",
+            "color": "#2A2E3D"
+          },
+          "stroke": {
+            "width": 1,
+            "color": "#4A4F63"
+          }
+        },
+        "iconButton": {
+          "fill": {
+            "type": "solid",
+            "color": "#2A2E3D"
+          },
+          "stroke": {
+            "width": 1,
+            "color": "#4A4F63"
+          }
+        },
+        "navActive": {
+          "fill": {
+            "type": "solid",
+            "color": "#1A1D29"
+          },
+          "stroke": {
+            "width": 1.5,
+            "color": "#F9F9F9"
+          },
+          "glow": {
+            "color": "#F9F9F9",
+            "radius": 6,
+            "alpha": 0.12
+          }
+        },
+        "rail": {
+          "fill": {
+            "type": "solid",
+            "color": "#0A0D1C"
+          },
+          "stroke": {
+            "width": 1,
+            "color": "#2B2F40"
+          }
+        },
+        "card": {
+          "glow": {
+            "color": "#000000",
+            "radius": 8,
+            "alpha": 0.35
+          }
+        },
+        "cardFocus": {
+          "stroke": {
+            "width": 3,
+            "color": "#F9F9F9"
+          },
+          "glow": {
+            "color": "#000000",
+            "radius": 16,
+            "alpha": 0.6
+          }
+        },
+        "focus": {
+          "stroke": {
+            "width": 3,
+            "color": "#F9F9F9"
+          },
+          "glow": {
+            "color": "#0063E5",
+            "radius": 8,
+            "alpha": 0.25
+          }
+        },
+        "hero": {
+          "stroke": {
+            "width": 1,
+            "color": "#040714"
+          }
+        },
+        "progress": {
+          "fill": {
+            "type": "gradient",
+            "colors": [
+              "#4DA3FF",
+              "#0063E5"
+            ],
+            "angle": 0
+          }
+        }
+      },
+      "tv": {
+        "layout": {
+          "hero": "framed",
+          "rail": "floating"
+        },
+        "shape": {
+          "heroRadius": 8,
+          "railItemRadius": 8
+        },
+        "surfaces": {
+          "rail": {
+            "fill": {
+              "type": "solid",
+              "color": "#0A0D1C"
+            },
+            "stroke": {
+              "width": 1,
+              "color": "#2B2F40"
+            }
+          },
+          "navActive": {
+            "fill": {
+              "type": "solid",
+              "color": "#1A1D29"
+            },
+            "stroke": {
+              "width": 1.5,
+              "color": "#F9F9F9"
+            },
+            "glow": {
+              "color": "#F9F9F9",
+              "radius": 6,
+              "alpha": 0.12
+            }
+          },
+          "hero": {
+            "stroke": {
+              "width": 1,
+              "color": "#040714"
+            }
+          },
+          "cardFocus": {
+            "stroke": {
+              "width": 3,
+              "color": "#F9F9F9"
+            },
+            "glow": {
+              "color": "#000000",
+              "radius": 16,
+              "alpha": 0.6
+            }
+          }
+        }
+      },
+      "phone": {
+        "shape": {
+          "cardRadius": 10,
+          "buttonRadius": 6
+        },
+        "surfaces": {
+          "button": {
+            "fill": {
+              "type": "gradient",
+              "colors": [
+                "#0483EE",
+                "#0050B8"
+              ],
+              "angle": 180
+            },
+            "stroke": {
+              "width": 1,
+              "color": "#6FB2FF"
+            }
+          },
+          "buttonGhost": {
+            "fill": {
+              "type": "solid",
+              "color": "#2A2E3D"
+            },
+            "stroke": {
+              "width": 1,
+              "color": "#4A4F63"
+            }
+          },
+          "iconButton": {
+            "fill": {
+              "type": "solid",
+              "color": "#2A2E3D"
+            },
+            "stroke": {
+              "width": 1,
+              "color": "#4A4F63"
+            }
+          },
+          "card": {
+            "glow": {
+              "color": "#000000",
+              "radius": 6,
+              "alpha": 0.3
+            }
+          },
+          "progress": {
+            "fill": {
+              "type": "gradient",
+              "colors": [
+                "#4DA3FF",
+                "#0063E5"
+              ],
+              "angle": 0
+            }
+          }
+        }
+      }
+    }
+  ]
+}
