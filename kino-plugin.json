@@ -1,20 +1,22 @@
 {
-  "id": "kino-disney-experience",
-  "name": "Kino Disney Experience",
-  "version": "1.3.1",
+  "id": "theme-midnight",
+  "name": "Midnight",
+  "version": "1.4.0",
   "apiVersion": 26,
   "entry": "plugin.js",
-  "description": "Tema azul noche inspirado en Disney+: fondo oscuro con degradado, tarjetas con borde blanco al enfocar y botones azules. No oficial. Mínimo Kino 0.9.87; recomendado 0.9.93.",
+  "icon": "icon.png",
+  "description": "Midnight: un tema azul noche para Kino (borde blanco al enfocar, fondo degradado, héroe enmarcado, riel flotante y logo propio). Inspirado en Disney+, no oficial. / A midnight-blue Kino theme (white focus border, gradient background, framed hero, floating rail and its own logo). Disney+-inspired, unofficial.",
+  "author": "ElCompitaDanny",
   "hosts": [],
   "categories": [
     "themes"
   ],
   "appThemes": [
     {
-      "id": "disney-experience",
+      "id": "midnight",
       "name": {
-        "es": "Kino Disney Experience",
-        "en": "Kino Disney Experience"
+        "es": "Midnight",
+        "en": "Midnight"
       },
       "colors": {
         "accent": "#0B6FE0",
