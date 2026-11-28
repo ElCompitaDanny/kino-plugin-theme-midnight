@@ -1,0 +1,518 @@
+{
+  "id": "theme-midnight",
+  "name": "Midnight",
+  "version": "1.5.0",
+  "apiVersion": 26,
+  "entry": "plugin.js",
+  "icon": "icon.png",
+  "description": "Midnight: tema azul profundo rediseñado e inspirado en la app de Disney+ (fondo azul cobalto nocturno, tarjetas con borde luminoso blanco-hielo al enfocar, botones en azul Disney+ y logotipo kino+ con arco estelar). No oficial. / Midnight: redesigned deep-blue theme inspired by the Disney+ app (midnight cobalt gradient, crisp ice-white focus rim borders, Disney+ blue action buttons and kino+ shooting-star wordmark). Unofficial.",
+  "author": "ElCompitaDanny",
+  "hosts": [],
+  "categories": [
+    "themes"
+  ],
+  "appThemes": [
+    {
+      "id": "midnight",
+      "name": {
+        "es": "Midnight",
+        "en": "Midnight"
+      },
+      "colors": {
+        "accent": "#0063E5",
+        "onAccent": "#FFFFFF",
+        "background": "#040714",
+        "surface": "#131726",
+        "surfaceHigh": "#23283D",
+        "textPrimary": "#F9F9F9",
+        "textSecondary": "#CACACA",
+        "focus": "#F9F9F9",
+        "onFocus": "#040714",
+        "outline": "#484F6B",
+        "railPanel": "#080B1A",
+        "scrim": "#02040A",
+        "border": "#262C42",
+        "success": "#38C172",
+        "warning": "#F5C518",
+        "error": "#E5484D",
+        "favorite": "#00A8E8"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": [
+          "#040714",
+          "#090F29",
+          "#131D4A"
+        ],
+        "angle": 165
+      },
+      "shape": {
+        "cardRadius": 8,
+        "channelRadius": 8,
+        "buttonRadius": 6,
+        "chipRadius": 18,
+        "dialogRadius": 12,
+        "inputRadius": 6,
+        "dialogBorder": 1,
+        "menuBorder": 1,
+        "headerBorder": 1,
+        "cardBorder": 1,
+        "panelBorder": 1,
+        "heroRadius": 10,
+        "railItemRadius": 8
+      },
+      "typography": {
+        "scale": 1.0,
+        "titleScale": 1.05,
+        "bodyScale": 1.0
+      },
+      "elevation": {
+        "cardShadow": 0.5,
+        "dialogShadow": 0.65,
+        "heroScrim": 0.86
+      },
+      "motion": {
+        "focusZoom": 1.06,
+        "crossfadeMs": 220,
+        "heroDrift": "on"
+      },
+      "player": {
+        "buttonScale": 1.0,
+        "playButtonScale": 1.12,
+        "seekBarScale": 1.0,
+        "labelScale": 1.0,
+        "buttonShape": "rounded"
+      },
+      "experience": "full",
+      "pluginColors": "respect",
+      "adjustable": {
+        "colors.accent": {
+          "swatches": [
+            "#0063E5",
+            "#0B6FE0",
+            "#005BB5",
+            "#0277BD"
+          ]
+        },
+        "shape.cardRadius": {
+          "min": 4,
+          "max": 16
+        },
+        "typography.scale": {
+          "min": 0.9,
+          "max": 1.12
+        },
+        "background": true
+      },
+      "style": {
+        "gloss": 0.32
+      },
+      "layout": {
+        "hero": "framed",
+        "rail": "floating"
+      },
+      "surfaces": {
+        "button": {
+          "fill": {
+            "type": "gradient",
+            "colors": [
+              "#0483EE",
+              "#0063E5"
+            ],
+            "angle": 180
+          },
+          "stroke": {
+            "width": 1.5,
+            "gradient": {
+              "type": "gradient",
+              "colors": [
+                "#7CC4FF",
+                "#0483EE"
+              ],
+              "angle": 135
+            }
+          }
+        },
+        "buttonGhost": {
+          "fill": {
+            "type": "gradient",
+            "colors": [
+              "#252B42",
+              "#161B2E"
+            ],
+            "angle": 180
+          },
+          "stroke": {
+            "width": 1,
+            "gradient": {
+              "type": "gradient",
+              "colors": [
+                "#5A648A",
+                "#2D3552"
+              ],
+              "angle": 135
+            }
+          }
+        },
+        "iconButton": {
+          "fill": {
+            "type": "gradient",
+            "colors": [
+              "#252B42",
+              "#161B2E"
+            ],
+            "angle": 180
+          },
+          "stroke": {
+            "width": 1,
+            "gradient": {
+              "type": "gradient",
+              "colors": [
+                "#5A648A",
+                "#2D3552"
+              ],
+              "angle": 135
+            }
+          }
+        },
+        "navActive": {
+          "fill": {
+            "type": "gradient",
+            "colors": [
+              "#1E2747",
+              "#121830"
+            ],
+            "angle": 180
+          },
+          "stroke": {
+            "width": 1.5,
+            "gradient": {
+              "type": "gradient",
+              "colors": [
+                "#F9F9F9",
+                "#8CC8FF"
+              ],
+              "angle": 135
+            }
+          },
+          "glow": {
+            "color": "#5AB2FF",
+            "radius": 14,
+            "alpha": 0.32
+          }
+        },
+        "rail": {
+          "fill": {
+            "type": "gradient",
+            "colors": [
+              "#0F152E",
+              "#070A17"
+            ],
+            "angle": 180
+          },
+          "stroke": {
+            "width": 1,
+            "gradient": {
+              "type": "gradient",
+              "colors": [
+                "#3B4670",
+                "#18203D"
+              ],
+              "angle": 135
+            }
+          }
+        },
+        "card": {
+          "glow": {
+            "color": "#02040A",
+            "radius": 10,
+            "alpha": 0.4
+          }
+        },
+        "cardFocus": {
+          "stroke": {
+            "width": 2.5,
+            "gradient": {
+              "type": "gradient",
+              "colors": [
+                "#FFFFFF",
+                "#BCE0FF"
+              ],
+              "angle": 135
+            }
+          },
+          "glow": {
+            "color": "#4DA3FF",
+            "radius": 20,
+            "alpha": 0.42
+          }
+        },
+        "focus": {
+          "stroke": {
+            "width": 2,
+            "gradient": {
+              "type": "gradient",
+              "colors": [
+                "#FFFFFF",
+                "#BCE0FF"
+              ],
+              "angle": 135
+            }
+          },
+          "glow": {
+            "color": "#4DA3FF",
+            "radius": 14,
+            "alpha": 0.35
+          }
+        },
+        "hero": {
+          "stroke": {
+            "width": 1,
+            "gradient": {
+              "type": "gradient",
+              "colors": [
+                "#4D68A8",
+                "#141C38"
+              ],
+              "angle": 135
+            }
+          }
+        },
+        "progress": {
+          "fill": {
+            "type": "gradient",
+            "colors": [
+              "#38B6FF",
+              "#0063E5"
+            ],
+            "angle": 0
+          }
+        }
+      },
+      "tv": {
+        "layout": {
+          "hero": "framed",
+          "rail": "floating"
+        },
+        "shape": {
+          "heroRadius": 10,
+          "railItemRadius": 8
+        },
+        "surfaces": {
+          "rail": {
+            "fill": {
+              "type": "gradient",
+              "colors": [
+                "#0F152E",
+                "#070A17"
+              ],
+              "angle": 180
+            },
+            "stroke": {
+              "width": 1,
+              "gradient": {
+                "type": "gradient",
+                "colors": [
+                  "#3B4670",
+                  "#18203D"
+                ],
+                "angle": 135
+              }
+            }
+          },
+          "navActive": {
+            "fill": {
+              "type": "gradient",
+              "colors": [
+                "#1E2747",
+                "#121830"
+              ],
+              "angle": 180
+            },
+            "stroke": {
+              "width": 1.5,
+              "gradient": {
+                "type": "gradient",
+                "colors": [
+                  "#F9F9F9",
+                  "#8CC8FF"
+                ],
+                "angle": 135
+              }
+            },
+            "glow": {
+              "color": "#5AB2FF",
+              "radius": 14,
+              "alpha": 0.32
+            }
+          },
+          "hero": {
+            "stroke": {
+              "width": 1,
+              "gradient": {
+                "type": "gradient",
+                "colors": [
+                  "#4D68A8",
+                  "#141C38"
+                ],
+                "angle": 135
+              }
+            }
+          },
+          "cardFocus": {
+            "stroke": {
+              "width": 2.5,
+              "gradient": {
+                "type": "gradient",
+                "colors": [
+                  "#FFFFFF",
+                  "#BCE0FF"
+                ],
+                "angle": 135
+              }
+            },
+            "glow": {
+              "color": "#4DA3FF",
+              "radius": 20,
+              "alpha": 0.42
+            }
+          }
+        }
+      },
+      "phone": {
+        "shape": {
+          "cardRadius": 10,
+          "buttonRadius": 6
+        },
+        "surfaces": {
+          "button": {
+            "fill": {
+              "type": "gradient",
+              "colors": [
+                "#0483EE",
+                "#0063E5"
+              ],
+              "angle": 180
+            },
+            "stroke": {
+              "width": 1.5,
+              "gradient": {
+                "type": "gradient",
+                "colors": [
+                  "#7CC4FF",
+                  "#0483EE"
+                ],
+                "angle": 135
+              }
+            }
+          },
+          "buttonGhost": {
+            "fill": {
+              "type": "gradient",
+              "colors": [
+                "#252B42",
+                "#161B2E"
+              ],
+              "angle": 180
+            },
+            "stroke": {
+              "width": 1,
+              "gradient": {
+                "type": "gradient",
+                "colors": [
+                  "#5A648A",
+                  "#2D3552"
+                ],
+                "angle": 135
+              }
+            }
+          },
+          "iconButton": {
+            "fill": {
+              "type": "gradient",
+              "colors": [
+                "#252B42",
+                "#161B2E"
+              ],
+              "angle": 180
+            },
+            "stroke": {
+              "width": 1,
+              "gradient": {
+                "type": "gradient",
+                "colors": [
+                  "#5A648A",
+                  "#2D3552"
+                ],
+                "angle": 135
+              }
+            }
+          },
+          "card": {
+            "glow": {
+              "color": "#02040A",
+              "radius": 8,
+              "alpha": 0.35
+            }
+          },
+          "progress": {
+            "fill": {
+              "type": "gradient",
+              "colors": [
+                "#38B6FF",
+                "#0063E5"
+              ],
+              "angle": 0
+            }
+          }
+        }
+      },
+      "logo": {
+        "wordmark": {
+          "size": [
+            242,
+            84
+          ],
+          "paths": [
+            {
+              "d": "M 24 30 Q 112 2 198 25 Q 112 9 24 30 Z",
+              "fill": "#38B6FF"
+            },
+            {
+              "d": "M 22 28 H 32 V 72 H 22 Z M 56 42 H 44 L 32 55 L 38 61 Z M 40 53 L 58 72 H 46 L 34 58 Z M 68 42 H 78 V 72 H 68 Z",
+              "fill": "textPrimary"
+            },
+            {
+              "d": "M 73 27 Q 78 27 78 32 Q 78 37 73 37 Q 68 37 68 32 Q 68 27 73 27 Z M 90 72 V 42 H 100 V 46 Q 105 41 113 41 Q 126 41 126 55 V 72 H 116 V 56 Q 116 49 108 49 Q 100 49 100 57 V 72 Z",
+              "fill": "textPrimary"
+            },
+            {
+              "d": "M 154 41 Q 170 41 170 57 Q 170 73 154 73 Q 138 73 138 57 Q 138 41 154 41 Z M 154 49.5 Q 146.5 49.5 146.5 57 Q 146.5 64.5 154 64.5 Q 161.5 64.5 161.5 57 Q 161.5 49.5 154 49.5 Z",
+              "fill": "textPrimary"
+            },
+            {
+              "d": "M 202 36 H 210 V 48 H 222 V 56 H 210 V 68 H 202 V 56 H 190 V 48 H 202 Z",
+              "fill": "#38B6FF"
+            }
+          ]
+        },
+        "mark": {
+          "size": [
+            64,
+            64
+          ],
+          "paths": [
+            {
+              "d": "M 6 24 Q 32 4 58 22 Q 32 10 6 24 Z",
+              "fill": "#38B6FF"
+            },
+            {
+              "d": "M 28 24 H 36 V 36 H 48 V 44 H 36 V 56 H 28 V 44 H 16 V 36 H 28 Z",
+              "fill": "textPrimary"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
